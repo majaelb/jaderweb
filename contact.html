@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="Om Övre Jäder" content="Övre Jäders hemsida">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Övre Jäder | Kontakt</title>
+</head>
+<body>
+    <header class="main-header">
+        <nav class="nav main-nav">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="apartment.html">APARTMENT</a></li>
+                <li><a href="stable.html">STABLE</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+
+            </ul>
+        </nav>
+        <h1 class="farmname farmname-large">ÖVRE JÄDER</h1>
+    </header>
+
+    <section class="content-section container">
+        <h2 class="section-header">CONTACT</h2>
+        <form action="http://primat.se/services/sendform.aspx?xid=register&xmail=elb@mail.com" method="post">
+            <label for="name">Namn</label><br>
+            <input id="name" name="name" type="text"><br>
+            <label for="adress">Adress</label><br>
+            <input id="adress" name="adress" type="text"><br>
+            <label for="email">Email</label><br>
+            <input id="email" name="email" type="email"><br>
+            <label for="telnr">Telefon</label><br>
+            <input id="telnr" name="telnr" type="tel">
+
+
+            <p>Privat eller företag:</p>
+            <input type="radio" name="privorcomp" id="priv" value="privatperson">
+            <label for="meat">Privat</label><br>
+            <input type="radio" name="privorcomp" id="comp" value="foretag">
+            <label for="comp">Företag</label><br>
+            
+            
+            <br>
+            <label for="question">Skriv din fråga här:</label><br>
+            <textarea id="question" name="question" rows="5" cols="50"></textarea>
+
+            <br>
+            <br>
+            <input type="hidden" name="newsletter" value="nej">
+            <input type="checkbox" id="newsletter" name="newsletter" value="ja">
+            <label for="newsletter">Vill du ha nyhetsbrev?</label>
+            <br>
+            <input type="hidden" name="phonecontact" value="nej">
+            <input type="checkbox" id="phonecontact" name="phonecontact" value="ja">
+            <label for="newsletter">Vill du bli kontaktad på telefon?</label>
+            <br>
+            <br>
+            <input type="submit" value="Skicka">
+            <br>
+            <br>
+        </form>
+    </section>
+
+    <footer class="main-footer">
+        <div class="container main-footer-container">
+        <h3 class="farmname">ÖVRE JÄDER</h3>
+        <ul class="nav footer-nav">
+            <li>
+                <a href="https://gmail.com" target="_blank">
+                    <img src="Images/iconmail.png"></li>
+                </a>
+            <li>
+                <a href="https://facebook.com" target="_blank">
+                    <img src="Images/iconfacebook.png"></li>
+                </a>
+            <li>
+                <a href="https://instagram.com" target="_blank">
+                    <img src="Images/iconinstagram.png"></li>
+                </a>
+        </ul>
+    </div>
+    </footer>
+</body>
+</html>
