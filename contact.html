@@ -16,7 +16,7 @@
                 <li><a href="index.html">HOME</a></li>
                 <li><a href="about.html">ABOUT</a></li>
                 <li><a href="apartment.html">APARTMENT</a></li>
-                <li><a href="stable.html">STABLE</a></li>
+                <li><a href="stable.html">STABLE & HORSES</a></li>
                 <li><a href="contact.html">CONTACT</a></li>
 
             </ul>
@@ -26,40 +26,34 @@
 
     <section class="content-section container">
         <h2 class="section-header">CONTACT</h2>
+        <p>Välkommen att kontakta oss om du har några frågor. Använd formuläret nedan eller skicka ett mail direkt till jan.lindh@gmail.com
+            <br><br>
+            <strong>Vägbeskrivning</strong>
+            <br>
+            Övre Jäder, Jönåker
+Från E4 ta avfart 129 mot Jönåker (ca 2 mil söder om Nyköping). Kör mot Jönåkers samhälle, efter ca 1 km sväng höger vid skylt “Rinkeby”.
+Övre Jäder är första gården på höger sida. Kör förbi första infarten med grindstolparna, kör förbi nästa infart också och sväng in på tredje infarten. Framme! Parkera på gårdsplanen.
+        </p>
         <form action="http://primat.se/services/sendform.aspx?xid=register&xmail=elb@mail.com" method="post">
-            <label for="name">Namn</label><br>
-            <input id="name" name="name" type="text"><br>
+            <label class="labelform" for="name">Namn</label><br>
+            <input class="inputform" id="name" name="name" type="text"><br>
             <label for="adress">Adress</label><br>
-            <input id="adress" name="adress" type="text"><br>
+            <input class="inputform" id="adress" name="adress" type="text"><br>
             <label for="email">Email</label><br>
-            <input id="email" name="email" type="email"><br>
+            <input class="inputform" id="email" name="email" type="email"><br>
             <label for="telnr">Telefon</label><br>
-            <input id="telnr" name="telnr" type="tel">
-
-
-            <p>Privat eller företag:</p>
-            <input type="radio" name="privorcomp" id="priv" value="privatperson">
-            <label for="meat">Privat</label><br>
-            <input type="radio" name="privorcomp" id="comp" value="foretag">
-            <label for="comp">Företag</label><br>
-            
-            
+            <input class="inputform" id="telnr" name="telnr" type="tel">
             <br>
             <label for="question">Skriv din fråga här:</label><br>
-            <textarea id="question" name="question" rows="5" cols="50"></textarea>
-
+            <textarea class="inputform" id="question" name="question" rows="5" cols="50"></textarea>
+            
+            <p><strong>Vill du att vi kontaktar dig via mail eller telefon?</strong> </p>
+            <input type="radio" name="mailorphone" id="mail" value="mail">
+            <label for="meat">Mail</label><br>
+            <input type="radio" name="mailorphone" id="phone" value="phone">
+            <label for="comp">Telefon</label><br>  
             <br>
-            <br>
-            <input type="hidden" name="newsletter" value="nej">
-            <input type="checkbox" id="newsletter" name="newsletter" value="ja">
-            <label for="newsletter">Vill du ha nyhetsbrev?</label>
-            <br>
-            <input type="hidden" name="phonecontact" value="nej">
-            <input type="checkbox" id="phonecontact" name="phonecontact" value="ja">
-            <label for="newsletter">Vill du bli kontaktad på telefon?</label>
-            <br>
-            <br>
-            <input type="submit" value="Skicka">
+            <input class="sendbtn" type="submit" value="SKICKA">
             <br>
             <br>
         </form>
