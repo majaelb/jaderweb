@@ -10,6 +10,9 @@ html,
 body {
     margin: 0;
     padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 .nav ul {
@@ -39,7 +42,7 @@ body {
 }
 
 .main-nav li {
-    padding: 0 5%;
+    padding: 0 3.5%;
 }
 
 .main-header {
@@ -91,6 +94,7 @@ body {
 .main-footer {
     background-color: #3F5442;
     padding: .25em;
+    margin-top: auto;
 }
 
 .main-footer-container {
@@ -112,9 +116,11 @@ body {
     height: 30px;
 }
 
-/*.newpage-link {
-    text-align: center;    
-}*/
+
+.apartment-image {
+    display: inline-block;
+    height: 25vh;
+}
 
 .newpage-link a {
     padding: 7px;
@@ -126,53 +132,6 @@ body {
 }
 
 .newpage-link a:hover {
-    background-color: rgba(63, 84, 66, 0.3);
-}
-
-.apartment-image {
-    display: inline-block;
-    height: 25vh;
-}
-
-.sendbtn {
-    padding: 7px;
-    width: 200px;
-    border: none;
-    background-color: rgba(63, 84, 66, 0.7);
-    font-size: 1.5em;
-    display: inline;
-    color: white;
-    text-decoration: none;
-}
-
-.sendbtn:hover {
-    background-color: rgba(63, 84, 66, 0.3);
-}
-
-.subnav {
-
-    text-align: center;
-    font-size: 1.1em;
-    font-weight: lighter;
-    border-bottom: 1px solid rgba(255, 255, 255, .3);
-}
-
-.subnav li {
-    display: inline;
-    padding: 0 3%;
-
-}
-
-.subnav a {
-    width: 100px;
-    background-color: rgba(63, 84, 66, 0.7);
-    display: inline-block;
-    padding: .5em;
-    color: white;
-    text-decoration: none;
-}
-
-.subnav a:hover {
     background-color: rgba(63, 84, 66, 0.3);
 }
 

@@ -1,0 +1,72 @@
+
+@media(min-width: 915px) {
+
+    .myflex-container {
+        display: flex;
+        flex-direction: row;
+       
+    }
+}
+
+@media(max-width: 914px) {
+    .myflex-container {
+        display: flex;
+        flex-direction:row;
+        flex-flow: row wrap;
+    }
+}
+
+
+.myflex-container div {
+    margin: 1px;
+    padding: 5px;
+
+}
+
+.pic1 {
+    flex-grow: 1;
+}
+
+.pic2 {
+    flex-grow: 1;
+}
+
+.pic3 {
+    flex-grow: 1;
+}
+
+.pic4 {
+    flex-grow: 1;
+}
+
+.container {
+    position: relative;
+  }
+
+.center {
+    position: absolute;
+    top: 65%;
+    width: 200px;
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    
+  }
+
+  .center a {
+    width: 100px;
+    background-color: rgba(63, 84, 66, 0.7);
+    display: inline-block;
+    padding: .5em;
+    color: white;
+    text-decoration: none;
+}
+
+.center a:hover {
+    background-color: rgba(63, 84, 66, 0.5);
+}
+  
+  img { 
+    width: 200px;
+    height: 300px;
+  }

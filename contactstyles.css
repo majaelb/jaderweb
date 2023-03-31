@@ -1,47 +1,66 @@
-form {
-    text-align: left;
+@media(min-width: 915px) {
+
+    .myflex-container {
+        display: flex;
+        flex-direction: row;
+        gap: 2em;
+       
+    }
 }
 
-.inputform {
-    font-size: 1em;
+@media(max-width: 914px) {
+    .myflex-container {
+        display: flex;
+        flex-direction: column;
+        gap: 2em;
+    }
 }
 
-.labelform {
-    font-weight: bold;
-}
-
-.mapouter {
-    position: relative;
-    text-align: right;
-    height: 80%;
-    width: 80%;
-}
-
-.gmap_canvas {
-    overflow: hidden;
-    background: none !important;
-    height: 100%;
-    width: 100%;
-}
-
-.myflex-container {
-    display: flex;
-    flex-direction: row;
-    border: dotted;
-    border-color: red;
-}
 
 .myflex-container div {
     margin: 1px;
-    padding: 10px;
-    border: dotted;
+}
 
+.flex-header {
+    font-weight: normal;
 }
 
 .map-navigation {
-    flex-grow: 1;
+    flex-basis: 500px;
 }
 
 .contact-form {
     flex-grow: 1;
 }
+
+.inputform {
+    font-size: 1em;
+    width: 100%;
+}
+
+.free-text {
+    height: 100px;
+}
+
+.sendbtn {
+    padding: 7px;
+    width: 170px;
+    border: none;
+    background-color: rgba(63, 84, 66, 0.7);
+    font-size: 1.3em;
+    display: inline;
+    color: white;
+    text-decoration: none;
+}
+
+.sendbtn:hover {
+    background-color: rgba(63, 84, 66, 0.3);
+    cursor: pointer;
+}
+
+#gmap_canvas {
+    height: 400px;
+    width: 100%; 
+    border: none;
+}
+

@@ -16,42 +16,43 @@
     <header class="main-header">
         <nav class="nav main-nav">
             <ul>
-                <li><a href="index.html">HOME</a></li>
-                <li><a href="about.html">ABOUT</a></li>
-                <li><a href="apartment.html">APARTMENT</a></li>
-                <li><a href="stable.html">STABLE & HORSES</a></li>
-                <li><a href="contact.html">CONTACT</a></li>
-
+                <li><a href="index.html">HEM</a></li>
+                <li><a href="about.html">OM OSS</a></li>
+                <li><a href="apartment.html">HYR BOENDE</a></li>
+                <li><a href="stable.html">STALL & HÄSTAR</a></li>
+                <li><a href="contact.html">KONTAKT</a></li>
             </ul>
         </nav>
         <h1 class="farmname farmname-large">ÖVRE JÄDER</h1>
     </header>
 
     <section class="content-section container">
-        <h2 class="section-header">CONTACT</h2>
-        <p>Välkommen att kontakta oss om du har några frågor. Använd formuläret nedan eller skicka ett mail direkt till
-            jan.lindh@gmail.com</p>
+        <h2 class="section-header">KONTAKT</h2>
+        <p>Välkommen att kontakta oss om du har några frågor. <br>Använd formuläret nedan eller kontakta oss direkt via mail
+           <a href="mailto:jan.lindh@gmail.com">jan.lindh@gmail.com</a> eller telefon 070 550 34 07</p>
             
         <div class="myflex-container">
-            <div class="map-navigation"> <strong>Vägbeskrivning</strong>
-                <br>
+            <div class="map-navigation">
+                <h3 class="flex-header">VÄGBESKRIVNING</h3>
+
                 <p>Övre Jäder, Jönåker
                 Från E4 ta avfart 129 mot Jönåker (ca 2 mil söder om Nyköping). Kör mot Jönåkers samhälle, efter ca 1 km
                 sväng höger vid skylt “Rinkeby”.
                 Övre Jäder är första gården på höger sida. Kör förbi första infarten med grindstolparna, kör förbi nästa
                 infart också och sväng in på tredje infarten. Framme! Parkera på gårdsplanen.
-                </p>
+                </p><br>
                     <!--<div class="mapouter">-->
                        <!-- <div class="gmap_canvas">-->
-                            <iframe  width="450px" height="400px" id="gmap_canvas"
+                            <iframe   id="gmap_canvas"
                                 src="https://maps.google.com/maps?q=Övre Jäder 1 Jönåker Sverige&t=&z=11&ie=UTF8&iwloc=&output=embed"
-                                frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
-                            <br>
+                                ></iframe>
+                                <!-- frameborder="0" scrolling="no" marginheight="0" marginwidth="0"> -->
                         <!--</div>-->
                     <!--</div>-->
-                
             </div>
             <div class="contact-form">
+                <h3 class="flex-header">KONTAKTA OSS</h3>
+                
                 <form action="http://primat.se/services/sendform.aspx?xid=register&xmail=elb@mail.com" method="post">
                     <label class="labelform" for="name">Namn</label><br>
                     <input class="inputform" id="name" name="name" type="text"><br>
@@ -63,21 +64,21 @@
                     <input class="inputform" id="telnr" name="telnr" type="tel">
                     <br>
                     <label for="question">Skriv din fråga här:</label><br>
-                    <textarea class="inputform" id="question" name="question" rows="5" cols="50"></textarea>
+                    <textarea class="inputform free-text" id="question" name="question" ></textarea>
 
-                    <p><strong>Vill du att vi kontaktar dig via mail eller telefon?</strong> </p>
+                    <p>Vill du att vi kontaktar dig via mail eller telefon? </p>
                     <input type="radio" name="mailorphone" id="mail" value="mail">
                     <label for="meat">Mail</label><br>
                     <input type="radio" name="mailorphone" id="phone" value="phone">
                     <label for="comp">Telefon</label><br>
                     <br>
                     <input class="sendbtn" type="submit" value="SKICKA">
-                    <br>
-                    <br>
+                    
                 </form>
             </div>
 
         </div>
+        <br>
 
 
 
