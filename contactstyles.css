@@ -1,0 +1,47 @@
+form {
+    text-align: left;
+}
+
+.inputform {
+    font-size: 1em;
+}
+
+.labelform {
+    font-weight: bold;
+}
+
+.mapouter {
+    position: relative;
+    text-align: right;
+    height: 80%;
+    width: 80%;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 100%;
+    width: 100%;
+}
+
+.myflex-container {
+    display: flex;
+    flex-direction: row;
+    border: dotted;
+    border-color: red;
+}
+
+.myflex-container div {
+    margin: 1px;
+    padding: 10px;
+    border: dotted;
+
+}
+
+.map-navigation {
+    flex-grow: 1;
+}
+
+.contact-form {
+    flex-grow: 1;
+}
